@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slideshow</title>
+    <style>
+      /* Styles for the slideshow */
+      #slideshow-container {
+        position: relative;
+        max-width: 500px;
+        margin: auto;
+      }
+      .slide {
+        display: none;
+        width: 100%;
+      }
+      .slide.active {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="slideshow-container">
+      <img
+        class="slide active"
+        src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fbeautiful-flowers&psig=AOvVaw0uzmzuqMlP6NeXckxZ_4d-&ust=1714992441909000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNiTxu2q9oUDFQAAAAAdAAAAABAE"
+        alt="Slide 1"
+      />
+      <img
+        class="slide"
+        src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.wallpaperflare.com%2Fblue-flower-flowers-black-simple-background-nature-blue-flowers-wallpaper-pbnkc&psig=AOvVaw3Kbnmjra4XEibgK9aYsG-d&ust=1714992486366000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMCo1oKr9oUDFQAAAAAdAAAAABAD"
+        alt="Slide 2"
+      />
+      <img
+        class="slide"
+        src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.wallpaperflare.com%2Fwhite-and-blue-petaled-flower-flowers-black-simple-background-wallpaper-sryvg&psig=AOvVaw3Kbnmjra4XEibgK9aYsG-d&ust=1714992486366000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMCo1oKr9oUDFQAAAAAdAAAAABAI"
+        alt="Slide 3"
+      />
+    </div>
+
+    <button onclick="prevSlide()">Previous</button>
+    <button onclick="nextSlide()">Next</button>
+
+    <script>
+      let currentSlideIndex = 0;
+      const slides = document.querySelectorAll(".slide");
+
+      function showSlide(index) {
+        slides.forEach((slide, i) => {
+          if (i === index) {
+            slide.classList.add("active");
+          } else {
+            slide.classList.remove("active");
+          }
+        });
+      }
+
+      function nextSlide() {
+        currentSlideIndex = (currentSlideIndex + 1) % slides.length;
+        showSlide(currentSlideIndex);
+      }
+
+      function prevSlide() {
+        currentSlideIndex =
+          (currentSlideIndex - 1 + slides.length) % slides.length;
+        showSlide(currentSlideIndex);
+      }
+    </script>
+  </body>
+</html>
