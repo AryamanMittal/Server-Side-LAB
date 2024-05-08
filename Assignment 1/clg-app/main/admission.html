@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission</title>
+    <link rel="stylesheet" href="./styles/aaastyle.css">
+</head>
+<body>
+    
+    <div class="content">
+        <h1>Admission Form</h1>
+        <form action="" method="post">
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required><br><br>
+
+            <label for="gender">Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label><br><br>
+
+            <label for="course">Select Course:</label>
+            <select id="course" name="course" required>
+                <option value="arts">Arts</option>
+                <option value="science">Science</option>
+                <option value="commerce">Commerce</option>
+            </select><br><br>
+
+            <label for="message">Additional Information:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+            <input type="checkbox" id="agreeTerms" name="agreeTerms" required>
+            <label for="agreeTerms">I agree to the terms and conditions.</label><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <footer align="center">
+        <p>&copy; 2024 College Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    /* Set a default font */
+    margin: 0;
+    /* Remove default margin from body */
+    padding: 0;
+    /* Remove default padding from body */
+}
+
+header {
+    background-color: #f0f0f0;
+    /* Light gray background for header */
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+    /* Set a larger font size for the heading */
+    margin: 0;
+    /* Remove default margin from heading */
+}
+
+header p {
+    margin-top: 5px;
+    /* Add some space between heading and tagline */
+}
+
+nav {
+    background-color: #e0e0e0;
+    /* Light gray background for navigation */
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    /* Remove bullet points from navigation list */
+    padding: 0;
+    /* Remove default padding from list */
+    margin: 0;
+    /* Remove default margin from list */
+}
+
+nav li {
+    display: inline-block;
+    /* Display navigation items inline */
+    margin-right: 20px;
+    /* Add some space between list items */
+}
+
+nav a {
+    text-decoration: none;
+    /* Remove underline from links */
+    color: black;
+    /* Set link color */
+}
+
+nav a:hover {
+    color: #333;
+    /* Change link color on hover */
+}
+
+main {
+    padding: 20px;
+    /* Add padding to main content area */
+}
+
+section {
+    margin-bottom: 20px;
+    /* Add space between sections */
+}
+
+h2 {
+    margin-top: 0;
+    /* Remove default margin from section headings */
+}
+
+.intro p {
+    line-height: 1.5;
+    /* Increase line spacing for better readability */
+}
+
+.achievements ul {
+    padding: 0;
+    /* Remove default padding from list */
+    margin: 0;
+    /* Remove default margin from list */
+}
+
+.achie

@@ -1,0 +1,113 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    /* Centers content horizontally */
+}
+
+/* Header Styles */
+.header {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+    display: flex;
+    /* Arranges elements horizontally */
+    justify-content: space-between;
+    /* Spreads elements evenly */
+    align-items: center;
+    /* Aligns elements vertically */
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+    color: #333;
+}
+
+.city-logo {
+    width: 100px;
+    height: auto;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #333;
+}
+
+.navigation a:hover {
+    color: #666;
+}
+
+/* Main Content Styles */
+.main-content {
+    padding: 40px 0;
+}
+
+.photo-gallery {
+    text-align: center;
+}
+
+.photo-gallery h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.photo-gallery p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.photo-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.photo-item {
+    width: 30%;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.photo-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    /* Scales image to fit container */
+}
+
+.photo-item figcaption {
+    font-style: italic;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #f0f0f0;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer p {
+    color: #333;
+    margin: 0;
+}

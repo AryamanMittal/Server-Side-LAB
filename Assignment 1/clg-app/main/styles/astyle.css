@@ -1,0 +1,106 @@
+/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    /* Set a default font */
+    margin: 0;
+    /* Remove default margin from body */
+    padding: 0;
+    /* Remove default padding from body */
+    background-color: #f5f5f5;
+    /* Light gray background for the entire page */
+}
+
+h1,
+h2,
+h3 {
+    margin-top: 0;
+    /* Remove default margin from headings */
+    font-weight: bold;
+    /* Make headings bold */
+}
+
+p {
+    line-height: 1.5;
+    /* Increase line spacing for better readability */
+    color: #333;
+    /* Set a default text color */
+}
+
+a {
+    text-decoration: none;
+    /* Remove underline from links */
+    color: inherit;
+    /* Inherit the default text color for links */
+}
+
+a:hover {
+    color: #007bff;
+    /* Change link color on hover (blue) */
+}
+
+/* Header Styles */
+
+header {
+    background-color: #212529;
+    /* Dark blue background for header */
+    color: #fff;
+    /* White text color for header */
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+    /* Larger font size for the heading */
+}
+
+/* Navigation Bar Styles */
+
+nav {
+    background-color: #e0e0e0;
+    /* Light gray background for navigation */
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    /* Remove bullet points from navigation list */
+    padding: 0;
+    /* Remove default padding from list */
+    margin: 0;
+    /* Remove default margin from list */
+}
+
+nav li {
+    display: inline-block;
+    /* Display navigation items inline */
+    margin-right: 20px;
+    /* Add space between list items */
+}
+
+nav li a {
+    font-weight: bold;
+    /* Make navigation links bold */
+}
+
+/* Main Content Styles */
+
+.content {
+    padding: 20px;
+    margin: 0 auto;
+    /* Center the content horizontally */
+    max-width: 800px;
+    /* Set a maximum width for the content area */
+}
+
+/* Footer Styles */
+
+footer {
+    background-color: #94aec9;
+    /* Same dark blue as header */
+    color: #fff;
+    /* White text color */
+    padding: 10px;
+    text-align: center;
+    /* Center the footer content */
+}

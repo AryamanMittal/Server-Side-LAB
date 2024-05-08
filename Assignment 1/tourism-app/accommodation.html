@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find Your Parisian Dream Stay - Enchanteur Paris</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <h1 class="logo">Enchanté Paris</h1>
+    <img src="images/fr.jpeg" alt="Paris Logo" class="city-logo">
+    <nav class="navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="landmarks.html">Landmarks</a></li>
+        <li><a href="experiences.html">Experiences</a></li>
+        <li><a href="accommodation.html">Accommodation</a></li>
+        <li><a href="photo.html">Photo</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main-content">
+    <section class="booking-hero">
+      <h2>Find Your Parisian Dream Stay</h2>
+      <p>Immerse yourself in the magic of Paris by choosing the perfect accommodation for your trip. From charming boutique hotels to luxurious riverfront stays, we have something for every taste and budget.</p>
+    </section>
+
+    <section class="booking-form">
+      <h3>Book Your Parisian Adventure</h3>
+      <form action="/submit-booking" method="post">
+        <div class="form-group">
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" name="phone" required>
+        </div>
+        <div class="form-group">
+          <label for="check_in">Check-in Date:</label>
+          <input type="date" id="check_in" name="check_in" required>
+        </div>
+        <div class="form-group">
+          <label for="check_out">Check-out Date:</label>
+          <input type="date" id="check_out" name="check_out" required>
+        </div>
+        <div class="form-group">
+          <button type="submit">Book Now</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2024 Enchanteur Paris</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,153 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    /* Centers content horizontally */
+}
+
+/* Header Styles */
+.header {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+    display: flex;
+    /* Arranges elements horizontally */
+    justify-content: space-between;
+    /* Spreads elements evenly */
+    align-items: center;
+    /* Aligns elements vertically */
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+    color: #333;
+}
+
+.city-logo {
+    width: 100px;
+    height: auto;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #333;
+}
+
+.navigation a:hover {
+    color: #666;
+}
+
+/* Main Content Styles */
+.main-content {
+    padding: 40px 0;
+}
+
+/* Hero Section Styles (Shared) */
+.eiffel-tower-hero,
+.louvre-hero,
+.champ-de-mars-hero {
+    text-align: center;
+    position: relative;
+    /* Allows layering of elements */
+}
+
+.hero-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    /* Scales image to fit container */
+}
+
+.hero-h2 {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    /* Centers text horizontally */
+    color: white;
+    font-size: 2em;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    /* Adds subtle shadow */
+}
+
+.eiffel-tower-hero .hero-h2,
+.louvre-hero .hero-h2,
+.champ-de-mars-hero .hero-h2 {
+    /* Inherits styles from .hero-h2 but can be overridden here for specific page styling */
+}
+
+.eiffel-tower-hero p,
+.louvre-hero p,
+.champ-de-mars-hero p {
+    padding-top: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Eiffel Tower Details Styles */
+.eiffel-tower-details {
+    padding: 20px 0;
+}
+
+.eiffel-tower-details h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.eiffel-tower-details p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+/* Louvre Museum Details Styles */
+.louvre-highlights,
+.louvre-visit {
+    padding: 20px 0;
+}
+
+.louvre-highlights h3,
+.louvre-visit h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.louvre-highlights ul,
+.louvre-visit ul {
+    list-style: disc;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+.louvre-highlights li,
+.louvre-visit li {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Champ de Mars Details Styles */
+.champ-de-mars-highlights,
+.champ-de-mars-access {
+    padding: 20px 0;
+}
+
+.champ-de-mars-highlights h3,
+.champ-de-mars-access h3 {
+    font-size: 1.8em;

@@ -1,0 +1,55 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    /* Centers content horizontally */
+}
+
+/* Header Styles */
+.header {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+    display: flex;
+    /* Arranges elements horizontally */
+    justify-content: space-between;
+    /* Spreads elements evenly */
+    align-items: center;
+    /* Aligns elements vertically */
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #333;
+}
+
+.navigation a:hover {
+    color: #666;
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+    color: #333;
+}
+
+.city-logo {
+    width: 100px;
+    height: auto;
+}

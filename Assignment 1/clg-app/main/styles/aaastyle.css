@@ -1,0 +1,56 @@
+/* Global Styles (Optional) */
+
+body {
+    font-family: Arial, sans-serif;
+    /* Set a default font if desired */
+    margin: 0;
+    /* Remove default margin from body */
+    padding: 0;
+    /* Remove default padding from body */
+}
+
+h1 {
+    margin-top: 0;
+    /* Remove default margin from heading */
+    font-weight: bold;
+    /* Make heading bold */
+    text-align: center;
+    /* Center the form heading */
+}
+
+/* Form Styles */
+
+.content {
+    width: 50%;
+    /* Set a width for the form container */
+    margin: 50px auto;
+    /* Add margin for spacing and center horizontally */
+    padding: 20px;
+    /* Add padding for better visual separation */
+    border: 1px solid #ddd;
+    /* Add a thin border to the form */
+    border-radius: 5px;
+    /* Add rounded corners for a softer look */
+}
+
+.form-group {
+    margin-bottom: 15px;
+    /* Add space between form elements */
+}
+
+label {
+    display: block;
+    /* Make labels display on a new line */
+    margin-bottom: 5px;
+    /* Add space between labels and inputs */
+    font-weight: bold;
+    /* Make labels slightly bolder */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    /* Set width for most input fields */
+    padding: 8px;

@@ -1,0 +1,67 @@
+/* Global Styles (Optional) */
+
+body {
+    font-family: Arial, sans-serif;
+    /* Set a default font if desired */
+    margin: 0;
+    /* Remove default margin from body */
+    padding: 0;
+    /* Remove default padding from body */
+}
+
+h1,
+h2,
+h3 {
+    margin-top: 0;
+    /* Remove default margin from headings */
+    font-weight: bold;
+    /* Make headings bold */
+}
+
+p {
+    line-height: 1.5;
+    /* Increase line spacing for better readability */
+    color: #333;
+    /* Set a default text color */
+}
+
+/* Table Styles */
+
+table {
+    border-collapse: collapse;
+    /* Remove gaps between table cells */
+    width: 100%;
+    /* Make the tables responsive within the content area */
+    margin-bottom: 20px;
+    /* Add some space between tables */
+}
+
+th,
+td {
+    padding: 10px;
+    /* Add padding to table cells */
+    border: 1px solid #ddd;
+    /* Add a thin border to table cells */
+}
+
+th {
+    text-align: left;
+    /* Align table headers to the left */
+    background-color: #e0e0e0;
+    /* Light gray background for headers */
+}
+
+.main-table {
+    /* Style the main table */
+    width: 70%;
+    /* Set a specific width for the main table */
+    margin: 0 auto;
+    /* Center the table horizontally */
+}
+
+/* Footer Styles (Optional) */
+
+footer {
+    text-align: center;
+    /* Center the footer content */
+}
